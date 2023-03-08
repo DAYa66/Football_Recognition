@@ -1,7 +1,7 @@
 from collections.abc import Iterable
 import cv2
 import numpy as np
-from utils.math import npsafe_divide
+from Football_Recognition.utils.math import npsafe_divide
 
 
 def cut_and_resize(img,bboxes,size=(288,384)):
