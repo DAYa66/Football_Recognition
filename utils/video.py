@@ -4,7 +4,7 @@ import glob
 from collections import OrderedDict
 import numpy as np
 import cv2
-from utils.images import imwrite, resize_height
+from Football_Recognition.utils.images import imwrite, resize_height
 
 
 class VideoDemo:
