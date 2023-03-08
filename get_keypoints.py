@@ -6,7 +6,7 @@ import math
 import cv2
 import numpy as np
 import torch
-from utils.bboxes import npscale_bboxes
+from Football_Recognition.utils.bboxes import npscale_bboxes
 
 
 
