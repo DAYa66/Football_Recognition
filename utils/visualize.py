@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import random
 from PIL import Image, ImageDraw, ImageFont
-from utils.bboxes import npchangexyorder
-from utils.keypoints import JOINTS_PAIR
+from Football_Recognition.utils.bboxes import npchangexyorder
+from Football_Recognition.utils.keypoints import JOINTS_PAIR
 
 
 colors_tableau = [(255, 255, 255), (31, 119, 180), (174, 199, 232), (255, 127, 14), (255, 187, 120),
