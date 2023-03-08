@@ -1,5 +1,5 @@
 import numpy as np
-from yolox import YOLOXDetectionS as PersonDetSMSV2
+from Football_Recognition.yolox import YOLOXDetectionS as PersonDetSMSV2
 
 class PersonDetectionSMSV2:
     def __init__(self):
