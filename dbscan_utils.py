@@ -1,11 +1,11 @@
 import numpy as np
 import cv2
 from tqdm import tqdm
-from person_det import PersonDetectionSMSV2
-from get_keypoints import KPDetection 
-from utils.visualize import draw_bboxes_xy
-from detection_utils import get_vectors, get_relative_bboxes
-from visualization_utils import color_fn
+from Football_Recognition.person_det import PersonDetectionSMSV2
+from Football_Recognition.get_keypoints import KPDetection
+from Football_Recognition.utils.visualize import draw_bboxes_xy
+from Football_Recognition.detection_utils import get_vectors, get_relative_bboxes
+from Football_Recognition.visualization_utils import color_fn
 
 def get_arrays_from_video(video_path):
     
